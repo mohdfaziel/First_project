@@ -1,0 +1,109 @@
+
+        /* CSS reset  */
+        body {
+            font-family: "Audiowide", sans-serif;
+            color: black;
+            margin: 0;
+            padding: 0;
+            background: url('/First_project/images/banner2.jpg');
+            background-repeat: no-repeat;
+            background-size: 1411px 634px;
+        }
+
+        .left img {
+            width: 76px;
+            display: inline-block;
+            margin: auto;
+            padding-left: 17px;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 40px;
+            top: 13px;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            width: 600px;
+            margin: -8px auto;
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            right: 30px;
+            top: 13px;
+        }
+
+        .navbar li {
+            display: inline-block;
+            list-style: none;
+            padding: 2px 15px;
+        }
+
+        .navbar li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey
+        }
+
+        .btn {
+            font-family: "Audiowide", "sans-serif";
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            margin: 0px 5px;
+        }
+
+        .btn:hover {
+            text-decoration: underline;
+            color: grey
+        }
+
+        .container {
+            /* border: 2px solid black; */
+            width: 42%;
+            margin: 137px 24px;
+            padding: 4px 0px;
+        }
+
+        .formgrp input {
+            font-family: "Audiowide", "sans-serif";
+            border: 2px solid black;
+            border-radius: 10px;
+            text-align: center;
+            display: block;
+            width: 43%;
+            margin: 4px auto;
+            padding: 4px 6px;
+        }
+
+        .container.btn {
+            width: 33%;
+
+        }
+
+        .container h2 {
+            text-align: center;
+        }
+
+        .container button {
+            width: 46%;
+            display: block;
+            margin: 12px auto;
+        }
