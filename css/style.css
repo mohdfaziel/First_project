@@ -3,11 +3,8 @@
         body {
             font-family: "Audiowide";
             color: black;
-            margin: 0;
-            padding: 0;
-            background: url('/images/banner2.jpg');
-            background-repeat: no-repeat;
-            background-size: 1580px 704px;
+            background: url('/images/banner2.jpg') no-repeat 0rem -16rem/cover;
+            
         }
 
         .left img {
